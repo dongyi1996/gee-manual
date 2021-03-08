@@ -1,4 +1,4 @@
-### Manual para la intalación y uso de Google Earth Engine (GEE)
+### Manual para la instalación y uso de Google Earth Engine (GEE)
 GEE es un catalogo multi-petabyte de imágenes satelitales y data geoespacial que permite a investigadores, científicos y desarrolladores detectar cambios, mapear tendencias y cuantificar diferencias de la Tierra. Para mayor información se puede consultar a [Google Earth Engine](https://earthengine.google.com/).
 
 #### Conexión a Google Earth Engine (GEE)

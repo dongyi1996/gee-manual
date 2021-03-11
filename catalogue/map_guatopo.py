@@ -20,4 +20,4 @@ Map.addLayer(polygon, name=polygonName) # Agregando poligono
 Map.setControlVisibility(layerControl=True, fullscreenControl=True, latLngPopup=True) # Layer control
 
 # Guardando html
-Map.save('Layer_Guatopo.html')
+Map.save('catalogue/map_html/Layer_Guatopo.html')

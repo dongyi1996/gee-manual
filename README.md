@@ -19,18 +19,18 @@ Finalizada la instalación se procede a autenticar con los servidores de Earth E
 
 > ee.Authenticate()
 
-En este caso se hará la verificación de la cuenta via Web browser y se asignará un *verification code* que debe ser copiado en la terminal (ver *authenticate.py*) y seguidamente, al presionar *Enter*, se guardará el token de autorización (*authorization token*).
+En este caso se hará la verificación de la cuenta via Web browser y se asignará un *verification code* que debe ser copiado en la terminal y seguidamente, al presionar *Enter*, se guardará el token de autorización (*authorization token*).
 
 Es importante destacar que para iniciar la API se debe utilizar;
 
 > ee.Initialize()
 
-Para validar las instalaciones es recomendable realizar el ejemplo *catalogue/initialize.py* el cual permitirá iniciar la API y consultar la imagen *srtm90_v4*. 
+Para validar las instalaciones es recomendable seguir el ejemplo *notebook/primera_imagen.ipynb*. 
 
 Para mayor información consultar la documentación oficial [Developers guides](https://developers.google.com/earth-engine/guides/python_install).
 
 #### Ejemplos Prácticos
 
-1. [Primera imágen con GEE](md/primera_imagen.md).
-2. [El Parque Nacional Guatopo](md/map_guatopo.md). 
-3. [Series de Tiempo (EVI y NDVI)](md/time_serie.md). 
+1. [Primera imágen con GEE](notebook/primera_imagen.ipynb).
+2. [El Parque Nacional Guatopo](notebook/map_guatopo.ipynb). 
+3. [Series de Tiempo (EVI y NDVI)](notebook/time_serie.ipynb). 

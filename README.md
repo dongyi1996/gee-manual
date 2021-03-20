@@ -6,7 +6,8 @@
 GEE es un catálogo multi-petabyte de imágenes satelitales y data geo-espacial que permite a investigadores, científicos y desarrolladores detectar cambios, mapear tendencias y cuantificar diferencias de la Tierra. Para mayor información consultar a [Google Earth Engine](https://earthengine.google.com/).
 
 #### Conexión a Google Earth Engine (GEE)
-Inicialmente, es necesario crear una cuenta en [Google Earth Engine API](https://signup.earthengine.google.com/#!/). Para realizar la conexión entre Python y la API se debe utilizar la terminal y los siguientes comandos;
+
+Inicialmente, es necesario crear una cuenta en [Google Earth Engine API](https://signup.earthengine.google.com/#!/). Para realizar la conexión entre Python y la API se debe installar el siguiente paquete;
 
 > pip install earthengine-api
 
@@ -20,13 +21,11 @@ Finalizada la instalación se procede a autenticar con los servidores de Earth E
 
 > ee.Authenticate()
 
-En este caso se hará la verificación de la cuenta via web browser y se asignará un *verification code* que debe ser copiado en la terminal y seguidamente, al presionar *Enter*, se guardará el token de autorización (*authorization token*).
-
-Es importante destacar que para iniciar la API se debe utilizar;
+En este caso se hará la verificación de la cuenta via web browser y se asignará un *verification code* que debe ser copiado en la terminal y seguidamente, al presionar *Enter*, se guardará el token de autorización (*authorization token*). Es importante destacar que para iniciar la API se debe utilizar *Initialize* y no es necesario volver a autenticar con  *Authenticate*;
 
 > ee.Initialize()
 
-Para validar las instalaciones se recomienda seguir el ejemplo [Primera imágen con GEE](notebook/primera_imagen.ipynb). 
+Para validar la instalación se recomienda seguir el ejemplo [Primera imágen con GEE](notebook/primera_imagen.ipynb). 
 
 Para mayor información consultar la documentación oficial [Developers guides](https://developers.google.com/earth-engine/guides/python_install).
 

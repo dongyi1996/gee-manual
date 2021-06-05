@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "gee-env/bin/python"
+    "python.pythonPath": "gee-env/bin/python",
+    "jupyter.jupyterServerType": "local"
 }

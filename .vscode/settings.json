@@ -1,4 +1,7 @@
 {
     "python.pythonPath": "gee-env/bin/python",
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "files.watcherExclude": {
+        "**/target": true
+    }
 }
